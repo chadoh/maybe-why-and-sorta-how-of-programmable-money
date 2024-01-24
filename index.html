@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Maybe-Why and Sorta-How of Programmable Money</title>
+    <style>
+      :root {
+        --accent: rgb(235, 194, 70);
+        --bg: rgb(29, 21, 43);
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        border-bottom: 1px solid var(--accent);
+      }
+      kbd {
+        background: white;
+        color: var(--bg);
+        padding: 0 0.2em;
+        border-radius: 5px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.5) inset;
+      }
+      .remark-slide-content {
+        background-size: contain;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        font-size: calc(.85em + 2vw);
+        padding: 1rem 4rem;
+      }
+      .remark-slide-content h1 {
+        font-size: 2em;
+      }
+      .remark-slide-content h2 {
+        font-size: 1.5em;
+      }
+      .remark-slide-content em {
+        font-style: normal;
+        color: var(--accent);
+      }
+      .remark-slide-content > *:first-child {
+        margin-top: 0;
+      }
+      .remark-slide-number {
+        font-size: 0.3em;
+        display: none;
+      }
+      .small {
+        font-size: calc(.85em + 1.5vw);
+      }
+      .cramped {
+        letter-spacing: -0.13em;
+      }
+      .remark-code {
+        font-size: inherit;
+      }
+      @media screen {
+        body, body.remark-container {
+          background: var(--bg);
+          color: white;
+        }
+        .remark-slide-content {
+          background-color: var(--bg);
+        }
+        .remark-slide-scaler {
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source" style="display:none">
+
+class: small
+
+# The Maybe-Why and Sorta-How of Programmable Money
+
+*How to use the slides*:
+
+* &lt;kbd&gt;P&lt;/kbd&gt; toggle presenter notes
+* &lt;kbd&gt;?&lt;/kbd&gt; help menu
+* &lt;kbd&gt;&rarr;&lt;/kbd&gt; next slide
+
+Also, [here's the source](https://github.com/chadoh/maybe-why-and-sorta-how-of-programmable-money)
+
+---
+
+class: small
+
+*you*
+
+--
+
+Show of hands! Who here thinks blockchain is:
+
+--
+- the devil?
+
+<img alt="google suggestions for 'is cryptocurrency'" src="img/is-cryptocurrency.png" style="width: 350px">
+
+---
+
+class: small
+
+*you*
+
+Show of hands! Who here thinks blockchain is:
+
+- the devil?
+- the savior?
+
+<img alt="google suggestions for 'blockchain is teh'" src="img/blockchain-is-teh.png" style="width: 350px">
+
+---
+
+class: small
+
+*you*
+
+Show of hands! Who here thinks blockchain is:
+
+- the devil?
+- the savior?
+- somewhere in between?
+
+---
+
+class: small
+
+*you*
+
+Show of hands! Software in 2024 be like:
+
+--
+- pick yr dystopia, lol!
+
+---
+
+class: small
+
+*me*
+
+--
+
+- Chad O
+--
+
+- Aha Labs
+--
+
+  - cynically: "exploiting market niche created by bloated blockchain treasuries fulfilling legal obligation to keep spending on their tech"
+
+---
+
+class: small
+
+*me*
+
+- Chad O
+- Aha Labs
+  - naïvely: "building the foundations for the next,
+
+???
+
+GitHub Copilot suggested everything that comes next. It saw I was writing about Blockchain and was like "hang on, I got this" 😂 
+--
+ more equitable,
+--
+ more open,
+--
+ more programmable,
+--
+ more global,
+--
+ more decentralized,
+--
+ more secure,
+--
+ more private,
+--
+ more transparent,
+--
+ more fair,
+--
+ more efficient,
+--
+ more accessible,
+--
+ more inclusive,
+--
+ more interoperable version of the internet"
+
+---
+
+*outline*
+
+--
+1. bad arguments for blockchain
+
+--
+2. good? arguments
+
+--
+3. introducing Stellar
+
+--
+4. introducing smart contracts
+
+--
+5. building a smart contract
+
+---
+
+*bad arguments for blockchain*
+
+--
+
+- it will create world peace!
+
+--
+- it will end poverty!
+
+--
+- it will end corruption!
+
+---
+
+*good? arguments*
+
+--
+
+- prev 30 years: information  
+  next 30 years: money  
+--
+
+  *→* not an optimistic take
+
+--
+- "Wordpress for Money"
+
+---
+
+*stellar*
+
+--
+
+- proof-of-stake
+--
+
+- not v decentralized
+--
+
+- no smart contracts
+--
+
+- focused on global remittances
+--
+
+  - [MoneyGram](https://www.moneygram.com/mgo/us/en/)
+--
+
+  - [Beans](https://www.beansapp.com/features)
+
+???
+
+If "programmable money" is the argument that makes sense of blockchain, then it helps to have real money in the system. Stellar does!
+
+---
+
+*smart contracts*
+
+???
+
+4. Introducing smart contracts
+   - Drop a world of custom financial instruments—and financial programmability—on top of apps that do those remittances
+   - How it works: introducing WebAssembly
+5. Example smart contract
+   - Calling it from CLI
+   - Building a simple frontend
+6. Conclusion
+
+    </textarea>
+    <script src="remark-latest.min.js"></script>
+    <script>var slideshow = remark.create()</script>
+  </body>
+</html>
